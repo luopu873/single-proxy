@@ -59,8 +59,7 @@ mappers:
       - path: ^/proxies/v1/(.+)
         rewrite: /v1/$1
   # === claude 代理 ===
-  #- addr: https://claude.ai
-  - addr: https://api.anthropic.com
+  - addr: https://claude.ai
     #proxies: auto
     ja3: true
     routes:
